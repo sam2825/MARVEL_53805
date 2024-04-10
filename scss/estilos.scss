@@ -1,18 +1,8 @@
-* {
-  margin: 0;
-  padding: 0%;
-}
+@import "variable";
+@import "reset";
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-  text-decoration: none;
-  color: black;
-}
-
-.bgNavegacion {
-  background-color: rgb(74, 73, 73);
+.bgNavegacion{
+    background-color: rgb(74, 73, 73);
 }
 .text-bg-dark {
   position: relative;
@@ -27,37 +17,32 @@ body {
   bottom: 0;
 }
 
-.card-title-lg {
+.card-title {
   font-size: 4rem; 
-  color: white; 
+  color: white;
   text-align: center; 
 }
 
-.btn-primary {
+.btn-primary{
   color: rgb(226, 226, 226);
-  background-color: rgb(4, 4, 85);
-  border-color: rgb(4, 4, 85);
+  background-color: $color-principal;
+  border-color: $color-principal;
 }
-
-.btn-primary:hover {
+.btn-primary:hover{
   color: rgb(226, 226, 226);
-  background-color: rgb(1, 1, 45);
-  border-color: rgb(1, 1, 45);
+  background-color: $color-secundario;
+  border-color: $color-secundario;
 }
-
 img.img-fluid {
   height: auto;
 }
-
 .linkFooter {
   color: #fff;
   text-decoration: none;
 }
-
 .card-img-top {
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;  
 }
 
 .linkFooter:hover {
@@ -66,15 +51,14 @@ img.img-fluid {
 
 .iconoInstagram, .fa-tiktok, .fa-whatsapp {
   margin-right: 10px;
-  color: #fff;
+  color: #fff; 
 }
 
 .iconoInstagram:hover, .fa-tiktok:hover, .fa-whatsapp:hover {
-  color: #ccc;
+  color: #ccc; 
 }
-
-.btn-primary {
+.btn-primary{
   color: black;
   background-color: gray;
-  border: gray;
-}/*# sourceMappingURL=estilos.css.map */
+    border: gray;
+}

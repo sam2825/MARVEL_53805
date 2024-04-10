@@ -14,6 +14,7 @@ body {
 .bgNavegacion {
   background-color: rgb(74, 73, 73);
 }
+
 .text-bg-dark {
   position: relative;
   overflow: hidden;
@@ -27,10 +28,10 @@ body {
   bottom: 0;
 }
 
-.card-title-lg {
-  font-size: 4rem; 
-  color: white; 
-  text-align: center; 
+.card-title {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
 }
 
 .btn-primary {
