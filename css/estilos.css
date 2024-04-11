@@ -18,6 +18,9 @@ body {
   position: relative;
   overflow: hidden;
 }
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.685);
+}
 
 .card-img-overlay {
   position: absolute;
@@ -29,7 +32,7 @@ body {
 
 .card-title-lg {
   font-size: 4rem; 
-  color: white; 
+  color: rgb(255, 255, 255); 
   text-align: center; 
 }
 
@@ -59,6 +62,24 @@ img.img-fluid {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
 
 .linkFooter:hover {
   text-decoration: underline;
@@ -77,4 +98,30 @@ img.img-fluid {
   color: black;
   background-color: gray;
   border: gray;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+.galeria{
+  width: 90%;
+  margin: 0 auto;
+  height: 85vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid gray;
+}
+.galeria img{
+  width: 0px;
+  height: 100%;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: .5s ease;
+}
+
+.galeria img:hover{
+  width: 30%;
+  opacity: 1;
+  filter: contrast(120%);
+}
+

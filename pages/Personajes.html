@@ -11,18 +11,18 @@
     </head>
     <body>
         <header>
-          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/img/logo.png" alt="logo Marvel" width="100">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ml-auto">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand me-auto" href="../index.html">
+                        <img src="../assets/img/logo.png" alt="logo Marvel" width="100">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                          <a class="nav-link" href="../index">Inicio</a>
+                          <a class="nav-link" href="../index.html">Inicio</a>
                       </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Personajes</a>
@@ -42,17 +42,51 @@
           </nav>
         </header>
      <main class="mainIndex container-fluid pt-4">
-        <section>
-            <div class="card text-bg-dark">
-                <img src="../assets/img/Civil War .webp" class="card-img vw-100 vh-100" alt="...">
-                <div class="card-img-overlay">
-                    <h1 class="card-title-lg">PERSONAJES</h1>
+        <section class="container-fluid border-0 border-top-0 p-0"> 
+            <div class="row mx-0"> 
+                <div class="col-12 p-0"> 
+                    <div class="card text-bg-dark position-relative"> 
+                        <img src="../assets/img/Civil War .webp" class="card-img vw-100 vh-100" alt="..."> 
+                        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div> 
+                        <div class="card-img-overlay d-flex align-items-center justify-content-center"> 
+                            <h1 class="card-title-lg text-center text-white">PERSONAJES</h1>
+                        </div>
+                    </div>
                 </div>
             </div>            
-              <section> 
-                <h1 class="text-center">Personajes</h1>
-                <p>Sumérgete en el Universo Marvel: ¡Explora las historias de los héroes más legendarios y los villanos más formidables en un viaje lleno de emociones y aventuras inolvidables</p>
-            </main>
+        </section>        
+        <section class="text-center">
+            <section>
+                <div class="container">
+                    <h1 class="text-center mb-5">Explora el Universo Marvel</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Héroes</h2>
+                            <p class="lead mb-4">Descubre a los valientes héroes que luchan por la justicia en el Universo Marvel.</p>
+                            <div class="galeria">
+                                <img class="wanda" src="../assets/img/wanda.webp" alt="">
+                                <img class="capitan" src="../assets/img/capitan-america.jpg" alt="">
+                                <img class="ironman" src="../assets/img/IronMan-Endgame.webp" alt="">
+                                <img class="thor" src="../assets/img/thorg.jpg" alt="">
+                                <img class="doctorstrange" src="../assets/img/doctor.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Villanos</h2>
+                            <p class="lead mb-4">Conoce a los formidables villanos que desafían a nuestros héroes en cada paso del camino.</p>
+                            <div class="galeria">
+                                <img class="wanda" src="../assets/img/craneo-rojo-portada.webp" alt="">
+                                <img class="capitan" src="../assets/img/LOKI.webp" alt="">
+                                <img class="ironman" src="../assets/img/khan.jfif" alt="">
+                                <img class="thor" src="../assets/img/tanos.jpeg" alt="">
+                                <img class="doctorstrange" src="../assets/img/ultron.avif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5"></div> 
+                </div>
+            </section>            
+    </main>
     <footer id="footer" class="footer bg-dark text-light">
         <div class="container">
             <div class="row">
