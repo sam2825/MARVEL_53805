@@ -204,3 +204,12 @@ img.img-fluid {
 .comics .card:hover .card-body {
   opacity: 1;
 }
+.error-section {
+  background-color: #fff;
+  min-height: calc(100vh - 70px); /* Considerando el height del navbar */
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+}
