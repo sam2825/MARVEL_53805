@@ -120,6 +120,20 @@ img.img-fluid {
   opacity: 1; 
   background-color: rgba(0, 0, 0, 0.7); 
 }
+
+.peliculas .container:first-child p {
+  margin-bottom: 20px;
+}
+
+.card-body .btn-ver {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-body:hover .btn-ver {
+  opacity: 1;
+}
+
 .linkFooter:hover {
   text-decoration: underline;
 }
@@ -163,6 +177,8 @@ img.img-fluid {
   opacity: 1;
   filter: contrast(120%);
 }
+
+
 .comics {
   padding: 50px 0;
   background-color: #f8f9fa;
@@ -203,10 +219,6 @@ img.img-fluid {
 
 .comics .card:hover .card-body {
   opacity: 1;
-}
-.error-section {
-  background-color: #fff;
-  min-height: calc(100vh - 70px); /* Considerando el height del navbar */
 }
 
 .footer {
