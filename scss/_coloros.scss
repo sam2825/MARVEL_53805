@@ -1,0 +1,32 @@
+.bgNavegacion {
+ background-color: $color-dark-gray
+}
+
+.custom-navbar {
+  background-color: $color-navy
+}
+
+.btn-primary {
+  color: $color-white;
+  background-color: $color-primary;
+  border-color: $color-primary;
+  &:hover {
+    color: $color-white;
+    background-color: $color-hover-primary;
+    border-color: $color-hover-primary;
+}
+}
+.linkFooter {
+  color: $color-white;
+  text-decoration: none;
+
+.btn-primary {
+  color: $color-black;
+  background-color: $color-gray;
+  border: $color-gray;
+};
+.footer {
+  background-color: $color-black;
+  color: $color-white;
+}
+}

@@ -1,0 +1,23 @@
+.galeria {
+  width: 90%;
+  margin: 0 auto;
+  height: 85vh;
+  background-color: $color-black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid gray;
+}
+  img{ 
+    width: 0px;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    &:hover {
+      width: 30%;
+      opacity: 1;
+      filter: contrast(120%);
+    }
+  }

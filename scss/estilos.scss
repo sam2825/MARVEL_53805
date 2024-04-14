@@ -1,64 +1,7 @@
 @import "variable";
 @import "reset";
-
-.bgNavegacion{
-    background-color: rgb(74, 73, 73);
-}
-.text-bg-dark {
-  position: relative;
-  overflow: hidden;
-}
-
-.card-img-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.card-title {
-  font-size: 4rem; 
-  color: white;
-  text-align: center; 
-}
-
-.btn-primary{
-  color: rgb(226, 226, 226);
-  background-color: $color-principal;
-  border-color: $color-principal;
-}
-.btn-primary:hover{
-  color: rgb(226, 226, 226);
-  background-color: $color-secundario;
-  border-color: $color-secundario;
-}
-img.img-fluid {
-  height: auto;
-}
-.linkFooter {
-  color: #fff;
-  text-decoration: none;
-}
-.card-img-top {
-  height: 200px;
-    object-fit: cover;  
-}
-
-.linkFooter:hover {
-  text-decoration: underline;
-}
-
-.iconoInstagram, .fa-tiktok, .fa-whatsapp {
-  margin-right: 10px;
-  color: #fff; 
-}
-
-.iconoInstagram:hover, .fa-tiktok:hover, .fa-whatsapp:hover {
-  color: #ccc; 
-}
-.btn-primary{
-  color: black;
-  background-color: gray;
-    border: gray;
-}
+@import "color";
+@import "galeria";
+@import "tarjetas";
+@import "animacion";
+@import "peliculasycomics";

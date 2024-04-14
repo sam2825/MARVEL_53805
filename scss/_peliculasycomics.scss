@@ -1,0 +1,41 @@
+.peliculas .comics {
+  padding: 50px 0;
+  background-color: $color-comics-bg;
+
+.peliculas {h5
+.peliculas{p
+.comics-title .comics-description {
+  color: $color-white;
+} 
+}
+} 
+
+.peliculas .card .comics .card {
+  position: relative;
+} 
+.peliculas .card-img-top .comics .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: crisp-edges;
+} 
+.peliculas .card-body .comics .card-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $color-card-bg;
+  color: $color-white;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+} 
+
+.peliculas .card:hover .card-body .comics .card:hover .card-body {
+  opacity: 1;
+  background-color: $color-card-hover-bg;
+}
+} 
